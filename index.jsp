@@ -25,8 +25,8 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ms-auto">
-                            <a class="nav-link" aria-current="page" href="#hero">Home</a>
+                        <div class="text-form navbar-nav ms-auto">
+                           <a class="nav-link" aria-current="page" href="#">Home</a>
                             <a class="nav-link" href="#second">About Us</a>
                             <a class="nav-link" href="#third">Features</a>
                             <a class="nav-link" href="#partners">Partners</a>
@@ -41,7 +41,7 @@
         <section id="hero" class="hero">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 order-sm-1 order-lg-2">                 
+                    <div class="col-lg-6 order-sm-1 order-lg-2 mb-5">                 
                         <div id="carouselExample" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -64,8 +64,6 @@
                                 <span class="visually-hidden">Next</span>
                             </button>                            
                         </div>
-
-
                     </div>
 
                     <div class="col-lg-6 order-sm-2 order-lg-1">
@@ -74,9 +72,9 @@
                                 Power-Up With                            
                             </h1>
                             <h1>
-                                <strong class="name"><span>ALT </span>SOLUTIONS</strong>
+                                <strong class="name"><span>ALT</span>SOLUTIONS</strong>
                             </h1>
-                            <!-- <p class="catch-phrase">Leading the way with alternative technology</p> -->
+                            <p class="catch-phrase mb-4 lead">Take your computer setup to the next level</p>
                             <div class="button mb-5">
                                 <a href="log_in.jsp"><button class="btn btn-outline-danger btn-sm me-3 mt-3 px-4 rounded-5">
                                         Log in</button>
@@ -102,9 +100,9 @@
                     </div>
                     <div class="second_contents col-lg-5 mt-lg-5 p-lg-5">
                         <h3 class="mb-4">
-                            Welcome to <strong class="name1">ALT SOLUTIONS,</strong>
+                            Welcome to <strong class="name1"><span>ALT</span> SOLUTIONS,</strong>
                         </h3>
-                        <p class="text lead fs-6">
+                        <p class="text lead">
                             Your ultimate destination for innovative desktop solutions. We
                             offer a wide range of products and exceptional customer service to
                             make your shopping experience seamless and enjoyable. Join us in
@@ -120,7 +118,7 @@
         <section id="third" class="third">
             <div class="container">
                 <div class="why-shop">
-                    <p class="d-flex justify-content-center align-items-center mb-lg-5 my-3">Experience The Best Shopping</p>
+                    <p class="d-flex justify-content-center align-items-center mb-lg-2">WHY SHOP WITH US?</p>
                 </div>
                 <div class="card-group p-5" style="gap: 2rem">
                     <div class="card-color card">
@@ -156,12 +154,12 @@
         <!-- PARTNERS -->
         <section id="partners">
             <div class="container">
-                <div class="partners  spy-lg-5 py-5">
+                <div class="partners py-lg-5 py-5">
                     <h1 class="fw-bold text-white text-center">Our Partners</h1>
                     <marquee width="100%" behavior="scroll">
                         <div class="row">                 
                             <div class="col">
-                                <img src="css/img/partner1.png" alt="alt"/>
+                                <img src="css/img/partner1.png" alt="alt"/>     
                             </div>
 
                             <div class="col">
@@ -247,8 +245,7 @@
                 </div>
             </div>
         </section>
-        <!-- PARTNERS END -->
-
+        <!-- PARTNERS END -->       
 
         <!-- FOOTER START -->
         <footer>
