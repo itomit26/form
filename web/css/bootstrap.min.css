@@ -10990,7 +10990,9 @@ a{
 .col-lg-6{
     margin: auto 0;
 }
-
+marquee{
+    padding: 0 7rem;
+}
 marquee .row {
     animation: marquee 20s linear infinite;
 }
@@ -11008,6 +11010,7 @@ marquee .row {
 .navbar {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
+    padding: 0 10rem;
 }
 
 .navbar-brand img {
@@ -11163,6 +11166,9 @@ footer{
 
 /*MOBILE DEVICES*/
 @media screen and (max-width: 769px) {
+    .navbar{
+        padding: 0 .5rem;
+    }
     .hero{
         padding: 2rem;
     }
@@ -11196,6 +11202,9 @@ footer{
     }
     .why-shop{
         font-size: 23px;
+    }
+    marquee{
+       padding: 0 3rem;
     }
 }
 /*MOBILE DEVICES END*/

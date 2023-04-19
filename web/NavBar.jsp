@@ -12,7 +12,7 @@
         <title></title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top p-0">            
+        <nav class="navbar navbar-expand-lg fixed-top">            
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="css/img/altlogo.png" alt="" width="70" height="70">

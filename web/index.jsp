@@ -141,7 +141,7 @@
             <div class="container">
                 <div class="partners py-lg-5 py-5">
                     <h1 class="fw-bold text-white text-center">Our Partners</h1>
-                    <marquee width="100%" behavior="scroll">
+                    <marquee behavior="scroll">
                         <div class="row">                 
                             <div class="col">
                                 <img src="css/img/partner1.png" alt="alt"/>     
