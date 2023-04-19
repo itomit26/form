@@ -15,13 +15,13 @@
                 <div class="container h-100">
                     <div class="row d-flex justify-content-center align-items-center h-100">
                         <div class="col-12 col-md-7 col-lg-7 col-xl-6">
-                            <div class="card" style="border-radius: 15px;">
+                            <div class="card" style="border-radius: 15px; max-width: 90%; margin: 0 auto;">
                                 <div class="card-body p-5">
                                     <button onclick="window.history.back()"type="button" class="btn btn-light mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
                                         </svg></button>
                                     <h2 class="text-uppercase text-center mb-5">Log in Account</h2>
-
+                                    <fieldset disabled>
                                     <div class="container">
                                         <div class="row">
                                             <form class="row g-3">
@@ -45,6 +45,7 @@
                                             </form>
                                         </div>
                                     </div>
+                                    </fieldset>
                                 </div>
                             </div>
                         </div>
