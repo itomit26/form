@@ -74,7 +74,7 @@
                                                 </div>     
                                                 <div class="d-grid place-items-center">
                                                     <button type="button"
-                                                            class="text-form btn btn-dark btn-block btn-lg text-white">Register</button>
+                                                            class="text-form btn btn-dark btn-block btn-lg text-white disabled">Register</button>
                                                 </div>
                                                 <p class="text-center text-muted mt-5 mb-0">Have an account already? 
                                                     <a href="log_in.jsp"class="text-form fw-bold text-body"><u>Login here</u></a></p>
