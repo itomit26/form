@@ -10949,31 +10949,25 @@ textarea.form-control-lg{
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 /*GLOBAL CSS START*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-snap-type: x mandatory;
-
+    scroll-behavior: smooth;
 }
 body{
-    background: hsla(0, 0%, 0%, 1);
-
-    background: linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(234, 64%, 39%, 1) 100%);
-
-    background: -moz-linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(234, 64%, 39%, 1) 100%);
-
-    background: -webkit-linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(234, 64%, 39%, 1) 100%);
+    background-color: #ffff;
 
 }
+
 h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 h2{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none !important;
@@ -10982,10 +10976,10 @@ a{
     font-family: 'Open Sans', sans-serif;
 }
 .form-label{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 .text-form{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 .col-lg-6{
     margin: auto 0;
@@ -11008,23 +11002,18 @@ marquee .row {
 
 /*NAVBAR START*/
 .navbar {
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
     padding: 0 10rem;
-}
-
-.navbar-brand img {
-    filter: brightness(0) invert(1);
+    
 }
 
 .nav-link {
-    color: #fff;
+    color: black;
 }
 
 .nav-link:hover,
-.nav-link:focus {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.3);
+.nav-link:focus,
+.nav-link:active {
+    color: red;
 }
 
 /*NAVBAR END*/
@@ -11039,21 +11028,21 @@ marquee .row {
 
 }
 .hero-caption > h1{
-    color: white;
-    font-family: 'IBM Plex Mono', monospace;
+    color: black;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin-top: -1rem;
 }
 .name > span{
-    color: #6D7BB1;
+    color: red;
 }
 .catch-phrase{
-    color: white;
+    color: black;
     font-family: 'Open Sans', sans-serif;
     font-size: small;
 }
 .name{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 55px;
 }
 .button{
@@ -11070,7 +11059,7 @@ marquee .row {
 /*SECOND SECTION START*/
 .second_contents{
     max-width: 440px;
-    color: white;
+    color: black;
 }
 .second_contents h3{
     font-family: 'Open Sans', sans-serif;
@@ -11079,10 +11068,10 @@ marquee .row {
     padding: 5rem;
 }
 .name1{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 .name1 span{
-    color: #6D7BB1;
+    color: red;
 }
 .text{
     font-size: smaller;
@@ -11091,14 +11080,14 @@ marquee .row {
 
 
 /*THIRD SECTION START*/
+.third{
+    padding: 4rem;
+}
 .why-shop{
     font-weight: 600;
     font-size: 2rem;
-    font-family: 'IBM Plex Mono', monospace;
-    color: white;
-}
-.third{
-    padding: 4rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 .card img{
     object-fit: cover;
@@ -11123,12 +11112,12 @@ marquee .row {
     background-color: #485AA5;
 }
 .title-card{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
     color: white;
 }
 .title-card span{
     font-size: 2rem;
-    color: white;
+    color: red;
 }
 .card-text{
     font-family: 'Open Sans', sans-serif;
@@ -11140,27 +11129,26 @@ marquee .row {
 
 /*PARTNERS START*/
 .partners > h1{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 /*PARTNERS END*/
 
 /*FOOTER START*/
 footer{
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    border-top: 1px solid black;
 }
 .footer-title{
-    font-family: 'IBM Plex Mono', monospace;
-    color: white;
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 .footer-text > p{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
-    color: white;
+    color: black;
 }
 .footer-text span{
     font-weight: 600;
-    color: white;
+    color: black;
 }
 /*FOOTER END*/
 
@@ -11173,7 +11161,7 @@ footer{
         padding: 2rem;
     }
     .hero .container{
-        padding: 0;
+        padding: 0 .5rem;
     }
     .hero-caption{
         display: flex;

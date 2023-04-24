@@ -140,7 +140,7 @@
         <section id="partners">
             <div class="container">
                 <div class="partners py-lg-5 py-5">
-                    <h1 class="fw-bold text-white text-center">Our Partners</h1>
+                    <h1 class="fw-bold text-center">Our Partners</h1>
                     <marquee behavior="scroll">
                         <div class="row">                 
                             <div class="col">
