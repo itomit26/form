@@ -12,10 +12,10 @@
         <title></title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top">            
+        <nav class="navbar navbar-expand-lg">            
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="css/img/logo.png" alt="" width="100" height="90">
+                    <img src="css/img/logo.png" alt="" width="70" height="70">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

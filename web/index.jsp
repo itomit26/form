@@ -9,11 +9,12 @@
         <script src="${pageContext.request.contextPath}/js/bootstrap.bundle.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900|Open+Sans:400,700,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900|Lora:400,700,900" rel="stylesheet">
-
+        <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-3.6.4.min.js"></script>
         <title>ALT Solutions</title>
     </head>
 
     <body>
+        <div class="hero_bg">
         <!-- LOGO & NAV BAR -->
         <header>            
             
@@ -75,13 +76,14 @@
             </div>
         </section>
         <!-- HERO SECTION END-->
-
+        </div>
+            
         <!-- SECOND -->
         <section id="second" class="second">
             <div class="container">
                 <div class="row justify-content-center align-items-center">                   
                     <div class="side-img-left second-img mb-lg-5 col-lg-5">
-                        <img src="css/img/laptop.jpg" alt="" class="img-fluid" />
+                        <img src="css/img/laptop.jpg" alt="" class="img-fluid rounded-4" />
                     </div>
                     <div class="second_contents col-lg-5 mt-lg-5 p-lg-5">
                         <h3 class="mb-4">
@@ -106,7 +108,7 @@
                     <p class="d-flex justify-content-center align-items-center mb-lg-2">WHY SHOP WITH US?</p>
                 </div>
                 <div class="card-group p-5" style="gap: 2rem">
-                    <div class="card-color card">
+                    <div class="card-color card rounded-4">
                         <img src="css/img/alternativ.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="title-card card-title fw-bolder"><span>A</span>lternative</h5>
@@ -114,7 +116,7 @@
 
                         </div>
                     </div>
-                    <div class="card-color card">
+                    <div class="card-color card rounded-4">
                         <img src="css/img/leading.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="title-card card-title fw-bolder"><span>L</span>eading</h5>
@@ -122,7 +124,7 @@
 
                         </div>
                     </div>
-                    <div class="card-color card">
+                    <div class="card-color card rounded-4">
                         <img src="css/img/technology.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="title-card card-title fw-bolder"><span>T</span>echnology</h5>
@@ -239,6 +241,5 @@
             
         </footer>
         <!-- FOOTER END -->
-
     </body>
 </html>

@@ -10956,10 +10956,12 @@ textarea.form-control-lg{
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
-body{
-    background-color: #ffff;
-
+.body_bg{
+    background-image: url(../css/img/herobg.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -11007,7 +11009,7 @@ marquee .row {
 }
 
 .nav-link {
-    color: black;
+    color: white;
 }
 
 .nav-link:hover,
@@ -11019,16 +11021,21 @@ marquee .row {
 /*NAVBAR END*/
 
 /*HERO SECTION START*/
+.hero_bg{
+    background-image: url(../css/img/herobg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .hero{
-    margin-top: 8rem;
-
+    margin-top: 3rem;
 }
 .hero .container{
     padding: 3rem 5rem;
 
 }
 .hero-caption > h1{
-    color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin-top: -1rem;
@@ -11037,8 +11044,8 @@ marquee .row {
     color: red;
 }
 .catch-phrase{
-    color: black;
-    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-family: 'Poppins', sans-serif;
     font-size: small;
 }
 .name{
@@ -11059,13 +11066,16 @@ marquee .row {
 /*SECOND SECTION START*/
 .second_contents{
     max-width: 440px;
-    color: black;
+    color: white;
 }
 .second_contents h3{
     font-family: 'Open Sans', sans-serif;
 }
 .second{
     padding: 5rem;
+      background-image: url(../css/img/herobg.jpg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .name1{
     font-family: 'Poppins', sans-serif;
@@ -11082,12 +11092,15 @@ marquee .row {
 /*THIRD SECTION START*/
 .third{
     padding: 4rem;
+    background-image: url(../css/img/herobg.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .why-shop{
     font-weight: 600;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: white;
 }
 .card img{
     object-fit: cover;
@@ -11109,7 +11122,10 @@ marquee .row {
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 .card-color{
-    background-color: #485AA5;
+background-color: rgb(244, 11, 50);
+backdrop-filter: blur(10px);
+opacity: 0.8;
+
 }
 .title-card{
     font-family:'Poppins', sans-serif;
@@ -11117,7 +11133,7 @@ marquee .row {
 }
 .title-card span{
     font-size: 2rem;
-    color: red;
+    color: white;
 }
 .card-text{
     font-family: 'Open Sans', sans-serif;
@@ -11128,29 +11144,44 @@ marquee .row {
 /*THIRD SECTION END*/
 
 /*PARTNERS START*/
+#partners{
+        background-image: url(../css/img/herobg.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .partners > h1{
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
+
 /*PARTNERS END*/
 
 /*FOOTER START*/
 footer{
-    border-top: 1px solid black;
+    border-top: 1px solid white;
+        background-image: url(../css/img/herobg.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer-title{
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: white;
 }
 .footer-text > p{
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0;
-    color: black;
+    color: white;
 }
 .footer-text span{
     font-weight: 600;
-    color: black;
+    color: white;
 }
 /*FOOTER END*/
+
+/*LG-RGSTR IN START*/
+
+/* END*/
+
 
 /*MOBILE DEVICES*/
 @media screen and (max-width: 769px) {

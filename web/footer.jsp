@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="row p-lg-5 p-4">
+            <div class="row p-lg-5 p-4" style="margin-left: 3rem;">
                 <div class="footer-title col-lg-5 col-12 mb-4">
                     <h3>Connect with us</h3>
                 </div>
