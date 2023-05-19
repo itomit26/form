@@ -11006,10 +11006,11 @@ marquee .row {
 .navbar {
     padding: 0 10rem;
     
-}
+} 
 
 .nav-link {
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-link:hover,

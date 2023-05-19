@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>products</servlet-name>
+        <servlet-class>ph.testing.hrmgr.controller.products</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>home</servlet-name>
+        <servlet-class>ph.testing.hrmgr.controller.home</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>createproduct</servlet-name>
+        <servlet-class>ph.testing.hrmgr.controller.createproduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>products</servlet-name>
+        <url-pattern>/products</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>createproduct</servlet-name>
+        <url-pattern>/products/create</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
