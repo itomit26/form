@@ -10956,10 +10956,9 @@ textarea.form-control-lg{
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
 }
 .body_bg{
-    background-image: url(../css/img/herobg.jpg.png);
+    background-image: url(../css/img/sectionbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11023,7 +11022,7 @@ marquee .row {
 
 /*HERO SECTION START*/
 .hero_bg{
-    background-image: url(../css/img/herobg.png);
+    background-image: url(../css/img/herobg.jpg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11046,7 +11045,7 @@ marquee .row {
 }
 .catch-phrase{
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: small;
 }
 .name{
@@ -11074,7 +11073,7 @@ marquee .row {
 }
 .second{
     padding: 5rem;
-      background-image: url(../css/img/herobg.jpg-1.png);
+      background-image: url(../css/img/sectionbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11093,7 +11092,7 @@ marquee .row {
 /*THIRD SECTION START*/
 .third{
     padding: 4rem;
-    background-image: url(../css/img/herobg.jpg.png);
+    background-image: url(../css/img/sectionbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11146,7 +11145,7 @@ opacity: 0.8;
 
 /*PARTNERS START*/
 #partners{
-        background-image: url(../css/img/herobg.jpg.png);
+        background-image: url(../css/img/sectionbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11160,7 +11159,7 @@ opacity: 0.8;
 /*FOOTER START*/
 footer{
     border-top: 1px solid white;
-        background-image: url(../css/img/herobg.jpg.png);
+        background-image: url(../css/img/sectionbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11169,7 +11168,7 @@ footer{
     color: white;
 }
 .footer-text > p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0;
     color: white;
 }
@@ -11185,7 +11184,7 @@ footer{
 
 
 /*MOBILE DEVICES*/
-@media screen and (max-width: 769px) {
+@media (max-width: 769px) {
     .navbar{
         padding: 0 .5rem;
     }

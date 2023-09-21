@@ -9,13 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg">            
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="css/img/logo.png" alt="" width="70" height="70">
+                    <img src="css/img/alt solutions-logo.png" alt="" width="70" height="60">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

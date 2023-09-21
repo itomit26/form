@@ -21,31 +21,31 @@
                                         <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
                                         </svg></button>
                                     <h2 class="text-uppercase text-center text-white mb-5">Log in Account</h2>
-                                    <fieldset disabled>
+
                                     <div class="container">
                                         <div class="row">
                                             <form class="row g-3">
                                                 <div class="col-md-12">
-                                                    <label for="inputusername" class="form-label text-white">Username</label>
-                                                    <input type="email" class="form-control" id="inputusername">
+                                                    <label for="userID" class="form-label text-white">Username</label>
+                                                    <input type="userID" class="form-control" id="userID">
                                                 </div>
                                                 <div class="col-md-12">
-                                                    <label for="inputpassword" class="form-label text-white">Password</label>
+                                                    <label for="password" class="form-label text-white">Password</label>
                                                     <div class="input-group">
                                                         <input type="password" class="form-control" id="inputPassword" aria-describedby="passwordHelp" placeholder="Enter password">
                                                         <button type="button" id="togglePassword" onclick="togglePasswordVisibility()" class="btn btn-outline-secondary"><i class="fa fa-eye"></i></button>
                                                     </div>
                                                 </div>
                                                 <div class="d-grid place-items-center">
-                                                    <button type="button" class="btn btn-danger btn-block btn-lg gradient-custom-4 text-white">Log in</button>
+                                                    <a href="<%= request.getContextPath()%>/home"><button type="button" class="btn btn-danger btn-block btn-lg gradient-custom-4 text-white">Log in</button></a>
                                                 </div>
-                                                <p class="text-form text-center mt-5 mb-0 text-white">Don't have an account? 
-                                                    <a href="reg_form.jsp"class="text-form fw-bold text-white"><u>Register here</u></a>
+                                                <p class="text-form text-center mt-5 mb-0 text-white">Don't have an account?
+                                                    <a href="${pageContext.request.contextPath}/customer/create/form" class="text-form fw-bold text-white"><u>Register here</u></a>
                                                 </p>
                                             </form>
                                         </div>
                                     </div>
-                                    </fieldset>
+
                                 </div>
                             </div>
                         </div>
@@ -56,17 +56,17 @@
 
         <script>
             function togglePasswordVisibility() {
-  const passwordInput = document.getElementById("inputPassword");
-  const toggleButton = document.getElementById("togglePassword");
+                const passwordInput = document.getElementById("Password");
+                const toggleButton = document.getElementById("togglePassword");
 
-  if (passwordInput.type === "password") {
-    passwordInput.type = "text";
-    toggleButton.innerHTML = "<i class='fa fa-eye-slash'></i>";
-  } else {
-    passwordInput.type = "password";
-    toggleButton.innerHTML = "<i class='fa fa-eye'></i>";
-  }
-}
+                if (passwordInput.type === "password") {
+                    passwordInput.type = "text";
+                    toggleButton.innerHTML = "<i class='fa fa-eye-slash'></i>";
+                } else {
+                    passwordInput.type = "password";
+                    toggleButton.innerHTML = "<i class='fa fa-eye'></i>";
+                }
+            }
         </script>
 
     </body>
