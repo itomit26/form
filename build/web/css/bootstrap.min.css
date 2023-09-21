@@ -10949,31 +10949,26 @@ textarea.form-control-lg{
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 /*GLOBAL CSS START*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-snap-type: x mandatory;
-
+    scroll-behavior: smooth;
 }
-body{
-    background: hsla(0, 0%, 0%, 1);
-
-    background: linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(234, 64%, 39%, 1) 100%);
-
-    background: -moz-linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(234, 64%, 39%, 1) 100%);
-
-    background: -webkit-linear-gradient(360deg, hsla(0, 0%, 0%, 1) 0%, hsla(234, 64%, 39%, 1) 100%);
-
+.body_bg{
+    background-image: url(../css/img/sectionbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 h2{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none !important;
@@ -10982,15 +10977,17 @@ a{
     font-family: 'Open Sans', sans-serif;
 }
 .form-label{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 .text-form{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 .col-lg-6{
     margin: auto 0;
 }
-
+marquee{
+    padding: 0 7rem;
+}
 marquee .row {
     animation: marquee 20s linear infinite;
 }
@@ -11006,30 +11003,32 @@ marquee .row {
 
 /*NAVBAR START*/
 .navbar {
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-}
-
-.navbar-brand img {
-    filter: brightness(0) invert(1);
-}
+    padding: 0 10rem;
+    
+} 
 
 .nav-link {
-    color: #fff;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-link:hover,
-.nav-link:focus {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.3);
+.nav-link:focus,
+.nav-link:active {
+    color: red;
 }
 
 /*NAVBAR END*/
 
 /*HERO SECTION START*/
+.hero_bg{
+    background-image: url(../css/img/herobg.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .hero{
-    margin-top: 8rem;
-
+    margin-top: 3rem;
 }
 .hero .container{
     padding: 3rem 5rem;
@@ -11037,12 +11036,12 @@ marquee .row {
 }
 .hero-caption > h1{
     color: white;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin-top: -1rem;
 }
 .name > span{
-    color: #6D7BB1;
+    color: red;
 }
 .catch-phrase{
     color: white;
@@ -11050,7 +11049,7 @@ marquee .row {
     font-size: small;
 }
 .name{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 55px;
 }
 .button{
@@ -11074,12 +11073,15 @@ marquee .row {
 }
 .second{
     padding: 5rem;
+      background-image: url(../css/img/sectionbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .name1{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 .name1 span{
-    color: #6D7BB1;
+    color: red;
 }
 .text{
     font-size: smaller;
@@ -11088,14 +11090,17 @@ marquee .row {
 
 
 /*THIRD SECTION START*/
+.third{
+    padding: 4rem;
+    background-image: url(../css/img/sectionbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .why-shop{
     font-weight: 600;
     font-size: 2rem;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     color: white;
-}
-.third{
-    padding: 4rem;
 }
 .card img{
     object-fit: cover;
@@ -11117,10 +11122,13 @@ marquee .row {
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 .card-color{
-    background-color: #485AA5;
+background-color: rgb(244, 11, 50);
+backdrop-filter: blur(10px);
+opacity: 0.8;
+
 }
 .title-card{
-    font-family:'IBM Plex Mono', monospace;
+    font-family:'Poppins', sans-serif;
     color: white;
 }
 .title-card span{
@@ -11136,22 +11144,31 @@ marquee .row {
 /*THIRD SECTION END*/
 
 /*PARTNERS START*/
-.partners > h1{
-    font-family: 'IBM Plex Mono', monospace;
+#partners{
+        background-image: url(../css/img/sectionbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.partners > h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
 /*PARTNERS END*/
 
 /*FOOTER START*/
 footer{
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    border-top: 1px solid white;
+        background-image: url(../css/img/sectionbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer-title{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 .footer-text > p{
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0;
     color: white;
 }
@@ -11161,13 +11178,21 @@ footer{
 }
 /*FOOTER END*/
 
+/*LG-RGSTR IN START*/
+
+/* END*/
+
+
 /*MOBILE DEVICES*/
-@media screen and (max-width: 769px) {
+@media (max-width: 769px) {
+    .navbar{
+        padding: 0 .5rem;
+    }
     .hero{
         padding: 2rem;
     }
     .hero .container{
-        padding: 0;
+        padding: 0 .5rem;
     }
     .hero-caption{
         display: flex;
@@ -11196,6 +11221,9 @@ footer{
     }
     .why-shop{
         font-size: 23px;
+    }
+    marquee{
+       padding: 0 3rem;
     }
 }
 /*MOBILE DEVICES END*/
